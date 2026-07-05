@@ -21,9 +21,14 @@ npm run dev -- --host 0.0.0.0 --port 5175
 
 5. Open `http://localhost:5175/`.
 
+## Need to recover older work?
+
+Follow this simple guide:
+
+- `/home/runner/work/bena-Latest-/bena-Latest-/RECOVER_PREVIOUS_WORK.md`
+
 ## Notes
 
 - Legacy troubleshooting SQL files are retained in `supabase/` but are no longer the canonical setup path.
 - Frontend offer loading now reads only the authenticated user's backend rows (no demo fallback seeding).
 - Analytics events are recorded in `conversions` for signup/login/page-view and offer interactions.
-
